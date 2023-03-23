@@ -34,15 +34,18 @@
 
 header
 {
-    width: 760px;
-    height: 360px;
+    min-width: 320px;
+    max-width: 740px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(imagens/papel.png);
     padding: 10px 0px 10px 0px;
     margin: 50px auto 20px auto;
-    background-image: url(imagens/papel.png);
 }
 
 nav
@@ -147,18 +150,18 @@ ul
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 main div
 {
-    width: 100px;
+    min-width: 100px;
     height: 40px;
-    margin: 10px;
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background: linear-gradient(to bottom, var(--azul_escuro), var(--azul_claro));
 }
 
 main a
