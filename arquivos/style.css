@@ -1,24 +1,16 @@
 @charset "UTF-8";   /*     http://127.0.0.1:5500/encomendas.html    */
 
-@font-face
-{
-    font-family: 'Exo';
-    src: url('/fontes/Exo2-Medium.otf') format('opentype');
-    font-weight: normal;
-}
-@font-face
-{
-    font-family: 'Exo 2';
-    src: url('/fontes/Exo2-Black.otf') format('opentype');
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
 
 :root
 {
     --azul_claro: #00F0FF;
     --azul_escuro: #0094FF;
-    --fonte_padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte_exo: 'Exo', Arial, sans-serif;
-    --fonte_exo2: 'Exo 2', Arial, sans-serif;
+    --fonte_padrao: Arial, Helvetica, sans-serif; 
+    --fonte_exo: 'Exo', sans-serif;
+    --fonte_exo2: 'Exo 2', sans-serif;
 }
 
 
@@ -96,6 +88,7 @@ body
 {
     background-image: linear-gradient(to top, rgb(219, 219, 219), rgb(149, 149, 149));
     background-attachment: fixed;
+    font-family: var(--fonte_padrao);
 }
 
 main
