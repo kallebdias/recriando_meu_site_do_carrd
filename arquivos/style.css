@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 :root
 {
@@ -11,6 +12,7 @@
     --fonte_padrao: Arial, Helvetica, sans-serif; 
     --fonte_exo: 'Exo', sans-serif;
     --fonte_exo2: 'Exo 2', sans-serif;
+    --fonte3: 'Courier Prime', monospace;
 }
 
 
@@ -113,6 +115,7 @@ h2
     text-align: center;
     font-size: 60px;
     font-family: var(--fonte_exo2);
+    line-height: 60px;
     margin: 20px 65px 20px 65px;
 }
 
@@ -123,13 +126,29 @@ main p
     padding: 0px 65px 0px 65px;
 }
 
+.nopadding
+{
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
 .itensgrey
 {
-    list-style-type: '\2714';
+    align-items: center;
+    justify-content: center;
     background-color: rgb(226, 226, 226);
     border-radius: 5px;
-    margin-bottom: 5px;
-    padding: 0px 10px 0px 10px;
+    padding: 2.5px 10px 2.5px 10px;
+    font-family: var(--fonte3);
+}
+
+.checkmark
+{
+    color: white;
+    background-color: #1FDBA3;
+    border-radius: 100%;
+    padding: 0px 6px 0px 6px;
+    margin-right: 10px;
 }
 
 .negrito
@@ -156,6 +175,21 @@ ul
     flex-direction: column;
     align-items: flex-start;
     padding: 0px 65px 0px 65px;
+    margin: 30px 0px 30px 0px;
+}
+
+.papel1
+{
+    width: 75%;
+}
+
+.centralizarimg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 20px 0px 20px 0px;
 }
 
 main div
