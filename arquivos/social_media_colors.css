@@ -2,73 +2,144 @@
 
 .youtube
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #AB0000, #FF4D00);
 }
 .youtube:hover
 {
-    transition-duration: 0.5s;
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient( #AB0000, #AB0000);
 }
 
 .instagram
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #9E00FF, #FFB800);
 }
 .instagram:hover
 {
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient(#9E00FF, #9E00FF);
 }
 
 .reddit
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #FF4D00, #FFC700);
 }
 .reddit:hover
 {
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient(#FF4D00, #FF4D00);
 }
 
 .spotify
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #00B012, #8FFF00);
 }
 .spotify:hover
 {
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient(#00B012, #00B012);
 }
 
 .twitter
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #0094FF, #00F0FF);
 }
 .twitter:hover
 {
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient(#0094FF, #0094FF);
 }
 
 .artstation
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #0042A6, #0094FF);
 }
 .artstation:hover
 {
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient(#0042A6, #0042A6);
 }
 
 .twitch
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #6100DE, #CC00FF);
 }
 .twitch:hover
 {
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient(#6100DE, #6100DE);
 }
 
 .tiktok
 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #000000, #707070);
 }
 .tiktok:hover
 {
+    height: 65px;
+    width: 65px;
+    transition: 0.5s;
     background: linear-gradient(#000000, #000000);
 }
