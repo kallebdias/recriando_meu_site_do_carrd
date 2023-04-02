@@ -80,6 +80,12 @@ nav a:hover
     transition-duration: 0.5s;
 }
 
+nav a:active
+{
+    color: var(--azul_claro);
+    transition-duration: 0s;
+}
+
 .homepage
 {
     width: auto;
@@ -182,6 +188,11 @@ main p
     font-weight: bold;
 }
 
+.itálico
+{
+    font-style: italic;
+}
+
 hr
 {
     border-color: white;
@@ -194,6 +205,17 @@ ul
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+a
+{
+    color: var(--azul_escuro);
+    text-decoration: none;
+}
+
+a:active
+{
+    color: var(--azul_claro);
 }
 
 .list

@@ -17,6 +17,10 @@
     transition: 0.5s;
     background: linear-gradient( #AB0000, #AB0000);
 }
+.youtube:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
+}
 
 .instagram
 {
@@ -34,6 +38,10 @@
     width: 65px;
     transition: 0.5s;
     background: linear-gradient(#9E00FF, #9E00FF);
+}
+.instagram:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
 }
 
 .reddit
@@ -53,6 +61,10 @@
     transition: 0.5s;
     background: linear-gradient(#FF4D00, #FF4D00);
 }
+.reddit:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
+}
 
 .spotify
 {
@@ -70,6 +82,10 @@
     width: 65px;
     transition: 0.5s;
     background: linear-gradient(#00B012, #00B012);
+}
+.spotify:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
 }
 
 .twitter
@@ -89,6 +105,10 @@
     transition: 0.5s;
     background: linear-gradient(#0094FF, #0094FF);
 }
+.twitter:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
+}
 
 .artstation
 {
@@ -106,6 +126,10 @@
     width: 65px;
     transition: 0.5s;
     background: linear-gradient(#0042A6, #0042A6);
+}
+.artstation:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
 }
 
 .twitch
@@ -125,6 +149,10 @@
     transition: 0.5s;
     background: linear-gradient(#6100DE, #6100DE);
 }
+.twitch:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
+}
 
 .tiktok
 {
@@ -142,4 +170,8 @@
     width: 65px;
     transition: 0.5s;
     background: linear-gradient(#000000, #000000);
+}
+.tiktok:active
+{
+    background: linear-gradient(#00F0FF, #00F0FF);
 }
