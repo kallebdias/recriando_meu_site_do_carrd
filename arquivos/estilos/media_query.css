@@ -13,7 +13,7 @@ Extra large (XL): acima de 1200 pixels de largura
     header
     {
         height: 260px;
-        margin: 10px 0px 10px 0px;
+        margin: 10px 5px 10px 5px;
         padding: 0px;
     }
     nav
@@ -23,7 +23,7 @@ Extra large (XL): acima de 1200 pixels de largura
     }
     nav a
     {
-        font-size: 20px;
+        font-size: 18px;
     }
     nav a:hover
     {
@@ -41,11 +41,11 @@ Extra large (XL): acima de 1200 pixels de largura
     }
     .subtext
     {
-        font-size: 25px;
+        font-size: 20px;
     }
     .subtítulo
     {
-        font-size: 25px;
+        font-size: 20px;
     }
     main
     {
@@ -85,12 +85,12 @@ Extra large (XL): acima de 1200 pixels de largura
     header
     {
         height: 350px;
-        margin: 10px 0px 10px 0px;
+        margin: 10px 5px 10px 5px;
     }
     nav
     {
         border-radius: 0px;
-        height: 70px;
+        height: 80px;
     }
     nav a
     {
@@ -108,7 +108,7 @@ Extra large (XL): acima de 1200 pixels de largura
     {
         font-size: 45px;
         line-height: 40px;
-        margin: 0px 15px 20px 15px
+        margin: 0px 40px 20px 40px
     }
     .subtext
     {
@@ -124,8 +124,8 @@ Extra large (XL): acima de 1200 pixels de largura
     }
     main p
     {
-        font-size: 17px;
-        padding: 0px 20px 0px 20px;
+        font-size: 19px;
+        padding: 0px 40px 0px 40px;
     }
     .symbol
     {
@@ -138,23 +138,15 @@ Extra large (XL): acima de 1200 pixels de largura
     .list
     {
         margin: 30px 0px 10px 0px;
-        padding: 0px 20px 0px 20px;
+        padding: 0px 40px 0px 40px;
     }
     .desenhos
     {
         margin: 10px 0px 10px 0px;
-        padding: 0px 20px 0px 20px;
+        padding: 0px 40px 0px 40px;
     }
     footer p
     {
-        font-size: 17px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px)
-{
-    h1
-    {
-        font-size: 40px;
+        font-size: 19px;
     }
 }

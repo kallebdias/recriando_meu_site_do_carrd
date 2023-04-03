@@ -112,7 +112,7 @@ main
 h1
 {
     text-align: center;
-    font-size: 90px;
+    font-size: 80px;
     font-family: var(--fonte_exo2);
     font-weight: 900;
 }
@@ -177,13 +177,30 @@ main p
     color: white;
 }
 
-.checkmark
+.greenmark
 {
     align-items: center;
     justify-content: center;
     color: white;
     background-color: #1FDBA3;
-    border-radius: 100%;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+}
+
+.redtext
+{
+    color: red;
+    font-size: 21px;
+}
+
+.yellowmark
+{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #ffd500;
+    border-radius: 50%;
     padding: 5px 5px 5px 5px;
     margin-right: 10px;
 }
