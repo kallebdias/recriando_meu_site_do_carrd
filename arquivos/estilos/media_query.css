@@ -56,6 +56,10 @@ Extra large (XL): acima de 1200 pixels de largura
         font-size: 15px;
         padding: 0px 15px 0px 15px;
     }
+    .redtext
+    {
+        font-size: 15px;
+    }
     .symbol
     {
         height: 15px;
@@ -126,6 +130,10 @@ Extra large (XL): acima de 1200 pixels de largura
     {
         font-size: 19px;
         padding: 0px 40px 0px 40px;
+    }
+    .redtext
+    {
+        font-size: 19px;
     }
     .symbol
     {
