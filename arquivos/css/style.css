@@ -298,6 +298,8 @@ footer p
     min-width: 320px;
     max-width: 740px;
     margin: auto auto 20px auto;
+    display: flex;
+    justify-content: right;
 }
 
 .dark, .dark body
