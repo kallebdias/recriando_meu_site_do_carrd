@@ -19,7 +19,6 @@
 *   /* configurações globais */
 {
     font-family: var(--fonte_exo);
-    color: black;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -46,19 +45,13 @@ nav
     min-width: 320px;
     max-width: 740px;
     height: 100px;
-    margin: auto;
+    margin: auto auto 40px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, var(--azul_escuro), var(--azul_claro));
-    box-shadow: 0px 0px 50px rgba(54, 54, 54, 0.274);
-    border-radius: 30px 30px 0px 0px;
-}
-
-nav:hover
-{
     background: var(--azul_escuro);
-    transition-duration: 0.5s;
+    border-radius: 30px 30px 0px 0px;
+    transition: 0.5s;
 }
 
 nav div
@@ -93,20 +86,22 @@ nav a:active
 
 body
 {
-    background-image: linear-gradient(to top, rgb(219, 219, 219), rgb(149, 149, 149));
+    background: rgb(149, 149, 149);
     background-attachment: fixed;
+    transition: 0.5s;
     font-family: var(--fonte_padrao);
 }
 
 main
 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     min-width: 320px;
     max-width: 740px;
-    padding: 40px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;
     margin: 0px auto 70px auto;
-    border-radius: 0px 0px 30px 30px;
-    box-shadow: 0px 0px 50px rgba(54, 54, 54, 0.274);
+    border-radius: 50px 50px 30px 30px;
+    box-shadow: 0px 0px 50px rgba(63, 63, 63, 0.274);
+    transition: 0.5s;
 }
 
 h1
@@ -165,6 +160,7 @@ main p
     border-radius: 5px;
     padding: 6px 10px 1.5px 10px;
     font-family: var(--fonte3);
+    transition: 0.1s;
 }
 
 .itensgreen
@@ -225,6 +221,7 @@ hr
 {
     border-color: white;
     margin: 50px 0px 50px 0px;
+    transition: 0.5s;
 }
 
 ul
@@ -280,9 +277,8 @@ a:active
 
 .icons:hover
 {
-    height: 45px;
-    width: 45px;
-    transition-duration: 0.5s;
+    transition: 0.5s;
+    transform: scale(0.9);
 }
 
 footer
@@ -294,4 +290,100 @@ footer
 footer p
 {
     font-size: 21px;
+    transition: 0.5s;
+}
+
+.dark_mode
+{
+    min-width: 320px;
+    max-width: 740px;
+    margin: auto auto 20px auto;
+}
+
+.dark, .dark body
+{
+    background: rgb(15, 17, 19);
+    background-attachment: fixed;
+}
+
+.dark nav
+{
+    background: #207886;
+}
+
+.dark main
+{
+    background: #3b3b3b;
+    color: white;
+}
+
+.dark hr
+{
+    border-color: #747474;
+}
+
+.dark label
+{
+    background: #207886;
+}
+
+.dark footer
+{
+    color: white;
+}
+
+.dark .itensgrey
+{
+    background: #207886;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+.label
+{
+    padding: 5px;
+    width: 50px;
+    height: 25px;
+    background-color: var(--azul_escuro);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(103, 103, 103, 0.274);
+}
+
+.label .ball
+{
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    margin: 1px 0px 0px 0px;
+
+    top: 2px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball
+{
+    transform: translateX(25px);
+}
+
+.fa-moon
+{
+    color: white;
+}
+
+.fa-sun
+{
+    color: white;
 }

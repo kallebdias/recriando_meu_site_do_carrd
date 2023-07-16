@@ -12,9 +12,8 @@
 }
 .youtube:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient( #AB0000, #AB0000);
 }
 .youtube:active
@@ -34,9 +33,8 @@
 }
 .instagram:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient(#9E00FF, #9E00FF);
 }
 .instagram:active
@@ -56,9 +54,8 @@
 }
 .reddit:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient(#FF4D00, #FF4D00);
 }
 .reddit:active
@@ -78,9 +75,8 @@
 }
 .spotify:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient(#00B012, #00B012);
 }
 .spotify:active
@@ -100,9 +96,8 @@
 }
 .twitter:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient(#0094FF, #0094FF);
 }
 .twitter:active
@@ -122,9 +117,8 @@
 }
 .artstation:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient(#0042A6, #0042A6);
 }
 .artstation:active
@@ -144,9 +138,8 @@
 }
 .twitch:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient(#6100DE, #6100DE);
 }
 .twitch:active
@@ -166,9 +159,8 @@
 }
 .tiktok:hover
 {
-    height: 65px;
-    width: 65px;
     transition: 0.5s;
+    transform: scale(0.9);
     background: linear-gradient(#000000, #000000);
 }
 .tiktok:active
