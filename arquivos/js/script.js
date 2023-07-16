@@ -8,7 +8,6 @@ function toggleDarkMode()
 function loadTheme()
 {
     const darkMode = localStorage.getItem('dark')
-
     if(darkMode)
     {
         toggleDarkMode()
@@ -21,9 +20,7 @@ loadTheme()
 chk.addEventListener('change', () =>
 {
     toggleDarkMode()
-
     localStorage.removeItem('dark')
-
     if(document.body.classList.contains('dark'))
     {
         localStorage.setItem('dark', 1)

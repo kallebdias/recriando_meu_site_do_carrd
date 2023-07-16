@@ -1,4 +1,4 @@
-@charset "UTF-8";   /*     http://127.0.0.1:5500/encomendas.html    */
+@charset "UTF-8";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
@@ -305,7 +305,6 @@ footer p
 .dark, .dark body
 {
     background: rgb(15, 17, 19);
-    background-attachment: fixed;
 }
 
 .dark nav
@@ -357,6 +356,7 @@ input[type="checkbox"]
     justify-content: space-between;
     position: relative;
     box-shadow: 0px 0px 20px rgba(103, 103, 103, 0.274);
+    transition: 0.5s;
 }
 
 .label .ball
