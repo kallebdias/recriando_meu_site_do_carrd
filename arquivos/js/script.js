@@ -12,6 +12,7 @@ function loadTheme()
     if(darkMode)
     {
         toggleDarkMode()
+        chk.checked = true
     }
 }
 
